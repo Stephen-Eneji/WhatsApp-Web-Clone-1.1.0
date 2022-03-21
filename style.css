@@ -1,0 +1,167 @@
+body {
+    font-family: Verdana ;
+    background-color: #131a1f;
+    
+}
+
+#left-container {
+    height: 1000%;
+    width: 35%;
+    position: fixed;
+    left: 0%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 19px;
+    background-color: #131a1f;
+    
+}
+
+#head {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: #888;
+    
+}
+
+#wwbody {
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-transform: none;
+    color: #888;
+}
+
+#wwbody2 {
+    font-size: 14px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-transform: none;
+    color: #888;
+    
+}
+
+
+#right-section {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 1%;
+    position: right;
+    top: 28%;
+    left: 40%;
+    transform: translate(-8%, -30%);
+    text-align: center;
+    background-color: #222e35;
+    color: aliceblue;
+}
+
+#chat {
+    font-style: normal;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    background-color: #131a1f;
+    color:white;
+
+}
+
+#chat-content {
+    font-style: italic;
+    font-size: smaller;
+    text-transform: initial;
+}
+
+#profile-pic {
+    border: 25px;
+    outline: 20px;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+
+}
+
+#person {
+    border: 25px;
+    outline: 20px;
+    border-radius: 20px 20px 20px 20px;
+    align-items: left;
+    
+
+}
+
+#button {
+    padding-right: 170px;
+    padding: bottom 0px;
+    background-color: #131a1f;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#click {
+    color: rgba(240, 226, 210, 0.432);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#search {
+    margin: 10px;
+    padding: 4px;
+    background-color: #4d5d688c;
+    border: none;
+    width: 450px;
+    height: 25px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+#picture {
+    background-color: #1f2c34;
+    margin-top: -20px;
+    height: 50px;
+    
+}
+
+/*Top-left-right*/
+
+#status {
+    float: right;
+    margin: 2%;
+    
+}
+
+#status-icon {
+    padding: 10px;
+   
+}
+
+#chat-icon {
+    padding: 10px;
+}
+
+#option {
+    padding: 10px;
+}
+
+.all-chat {
+    overflow-y: scroll; height: 500px;
+
+}
+
+::-webkit-scrollbar {
+    background:#1f2c34;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+a:link, a:visited,  a:hover, a:active {
+    color: #000000;
+    text-decoration: none;
+}
